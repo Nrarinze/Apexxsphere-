@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services | ApexxSphere</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+    .glass { backdrop-filter: blur(18px); background: rgba(15, 23, 42, 0.72); }
+    a.brand-blue { color: #06b6d4; text-decoration: none; }
+    a.brand-blue:hover { color: #22d3ee; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100 antialiased selection:bg-cyan-400 selection:text-slate-950">
+  <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(79,70,229,0.28),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(13,148,136,0.22),transparent_30%),linear-gradient(to_bottom,rgba(2,6,23,1),rgba(15,23,42,1))]"></div>
+
+  <header class="fixed top-0 z-50 w-full border-b border-white/10 glass">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-indigo-500 to-cyan-500 font-black text-white shadow-lg shadow-cyan-500/20">A</div>
+        <div class="text-left"><div class="text-lg font-extrabold text-white">ApexxSphere</div><div class="text-xs text-slate-300">Digital Marketing Platform</div></div>
+      </a>
+      <nav class="hidden items-center gap-2 md:flex">
+        <a href="index.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Home</a>
+        <a href="approach.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Our Approach</a>
+        <a href="services.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Services</a>
+        <a href="terms.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Terms</a>
+        <a href="privacy.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Privacy</a>
+        <a href="contact.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 hover:bg-white/10 hover:text-white">Contact</a>
+      </nav>
+      <button id="menuBtn" class="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-3 text-white transition hover:bg-white/10 md:hidden" aria-label="Open menu">
+        <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="hidden border-t border-white/10 bg-slate-950/95 md:hidden">
+      <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-4 sm:px-6">
+        <a href="index.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Home</a>
+        <a href="approach.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Our Approach</a>
+        <a href="services.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Services</a>
+        <a href="terms.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Terms</a>
+        <a href="privacy.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Privacy</a>
+        <a href="contact.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24">
+    <section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <h2 class="text-3xl font-black text-white sm:text-4xl">Services</h2>
+      <p class="mt-4 text-base leading-8 text-slate-300 sm:text-lg"><a href="index.html" class="brand-blue">ApexxSphere</a> delivers a focused blend of paid promotion, content publishing, brand growth, and media engagement services built for modern businesses.</p>
+      <div class="mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">1. Paid Ads & Product Promotions</h3>
+          <p class="mt-4 leading-8 text-slate-300">We design and deploy high-converting paid advertising campaigns that place your products directly in front of an active, high-intent audience. By leveraging targeted placements, precision demographic filtering, and compelling ad creative, we turn visibility into immediate engagement, ensuring every ad dollar spent drives direct conversions for your business.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">2. Email & Affiliate Marketing</h3>
+          <p class="mt-4 leading-8 text-slate-300">Expand your market reach and build a loyal customer base without the financial risk. We build and manage high-ROI email marketing funnels alongside strategic, performance-based affiliate partnerships. This dual approach ensures your products are promoted by trusted networks, driving consistent sales where you only pay for actual performance and results.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">3. Brand Product Promotion</h3>
+          <p class="mt-4 leading-8 text-slate-300">Elevate your product catalog with high-impact, multi-channel promotional campaigns. We handle everything from the initial launch strategy to cross-platform execution, crafting a unified brand narrative that highlights your product's unique value. We ensure your offerings don't just sit on a shelf, but actively capture market share.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">4. Online Marketing</h3>
+          <p class="mt-4 leading-8 text-slate-300">Scale your digital footprint across the entire web. Our comprehensive online marketing services cover strategic planning and execution across diverse digital touchpoints. We synchronize your social media, web presence, and digital channels into a single, cohesive growth pipeline designed to attract, nurture, and capture leads.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">5. Creative Publishing & Blogs</h3>
+          <p class="mt-4 leading-8 text-slate-300">Bridge the gap between brand storytelling and audience trust. Powered by the high-traffic distribution network of our partner platform, <a href="https://www.apexwxld.com.ng" target="_blank" rel="noreferrer" class="brand-blue">Apexwxld</a>, we create compelling editorial content, sponsored articles, and engaging blog posts. This premium placement fosters deeper audience connections and gives your brand instant authority in your industry.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">6. Media Engagement</h3>
+          <p class="mt-4 leading-8 text-slate-300">Amplify your brand's public visibility through strategic media outreach. We leverage established media channels, press distribution networks, and key industry partnerships to secure high-value placements for your brand. This specialized approach ensures your company remains top-of-mind and commands a dominant position in the digital landscape.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl">
+          <h3 class="text-xl font-bold text-white">7. Search Engine Optimization (SEO)</h3>
+          <p class="mt-4 leading-8 text-slate-300">Stop chasing temporary traffic and start owning your market long-term. We implement advanced SEO strategies from technical optimization to high-value keyword targeting that push your brand and products to the top of Google search results, securing a continuous stream of free, organic, and highly qualified buyers.</p>
+        </div>
+        <div class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl md:col-span-2">
+          <h3 class="text-xl font-bold text-white">8. Conversion Rate Optimization (CRO)</h3>
+          <p class="mt-4 leading-8 text-slate-300">Traffic is meaningless if your visitors don't buy. We analyze user behavior, optimize landing page structures, and streamline your sales funnels to eliminate friction points. By continuously testing and refining your digital assets, we help you extract maximum revenue from the traffic you already have.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950/70">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-3 lg:px-8">
+      <div><div class="text-xl font-extrabold text-white"><a href="index.html" class="brand-blue">ApexxSphere</a></div><p class="mt-4 max-w-md leading-7 text-slate-300">A premium digital marketing and media platform built to elevate visibility, drive engagement, and convert attention into measurable growth.</p></div>
+      <div><div class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Connect with Us</div><div class="mt-4 flex flex-col gap-3 text-slate-200"><a class="transition hover:text-cyan-300" href="https://www.pinterest.com/apexxsphere0" target="_blank" rel="noreferrer">Pinterest</a><a class="transition hover:text-cyan-300" href="https://flipboard.com/@apexxsphere/" target="_blank" rel="noreferrer">Flipboard</a><a class="transition hover:text-cyan-300" href="https://threads.com/@apexxsphere/" target="_blank" rel="noreferrer">Threads</a></div></div>
+      <div><div class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Contact</div><a href="mailto:apexxsphere@gmail.com" class="mt-4 block text-slate-200 hover:text-cyan-300">apexxsphere@gmail.com</a><p class="mt-4 text-sm leading-7 text-slate-400">© 2026 ApexxSphere. All rights reserved. A Division of the Apexasphere Media Group.</p></div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>

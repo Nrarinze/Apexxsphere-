@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ApexxSphere | Digital Marketing Platform</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', sans-serif; }
+    .glass { backdrop-filter: blur(18px); background: rgba(15, 23, 42, 0.72); }
+    .grid-bg { background-image: radial-gradient(circle at 1px 1px, rgba(148,163,184,0.15) 1px, transparent 0); background-size: 24px 24px; }
+    a.brand-blue { color: #06b6d4; text-decoration: none; }
+    a.brand-blue:hover { color: #22d3ee; }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-950 text-slate-100 antialiased selection:bg-cyan-400 selection:text-slate-950">
+  <div class="fixed inset-0 -z-10 bg-[radial-gradient(circle_at_top,rgba(79,70,229,0.28),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(13,148,136,0.22),transparent_30%),linear-gradient(to_bottom,rgba(2,6,23,1),rgba(15,23,42,1))]"></div>
+
+  <header class="fixed top-0 z-50 w-full border-b border-white/10 glass">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-indigo-500 to-cyan-500 font-black text-white shadow-lg shadow-cyan-500/20">A</div>
+        <div class="text-left">
+          <div class="text-lg font-extrabold tracking-tight text-white"><a href="index.html" class="brand-blue">ApexxSphere</a></div>
+          <div class="text-xs text-slate-300">Digital Marketing Platform</div>
+        </div>
+      </a>
+
+      <nav class="hidden items-center gap-2 md:flex">
+        <a href="index.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Home</a>
+        <a href="approach.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Our Approach</a>
+        <a href="services.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Services</a>
+        <a href="terms.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Terms</a>
+        <a href="privacy.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Privacy</a>
+        <a href="contact.html" class="rounded-full px-4 py-2 text-sm font-medium text-slate-200 transition hover:bg-white/10 hover:text-white">Contact</a>
+      </nav>
+
+      <button id="menuBtn" class="inline-flex items-center justify-center rounded-2xl border border-white/10 bg-white/5 p-3 text-white transition hover:bg-white/10 md:hidden">
+        <svg id="menuIcon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobileMenu" class="hidden border-t border-white/10 bg-slate-950/95 md:hidden">
+      <div class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-4 sm:px-6">
+        <a href="index.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Home</a>
+        <a href="approach.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Our Approach</a>
+        <a href="services.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Services</a>
+        <a href="terms.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Terms</a>
+        <a href="privacy.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Privacy</a>
+        <a href="contact.html" class="rounded-2xl px-4 py-3 text-left text-sm font-medium text-slate-200 hover:bg-white/10">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="pt-24">
+    <section class="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
+      <div class="grid-bg rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-2xl sm:p-10 lg:p-14">
+        <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+          <div>
+            <div class="mb-5 inline-flex rounded-full border border-cyan-400/20 bg-cyan-400/10 px-4 py-2 text-xs font-semibold uppercase tracking-[0.24em] text-cyan-200">Full-Service Digital Growth</div>
+            <h1 class="max-w-3xl text-4xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">Amplify Your Online Presence. Total Visibility. Targeted Placements. Absolute Revenue Growth.</h1>
+            <p class="mt-6 max-w-2xl text-base leading-8 text-slate-300 sm:text-lg"><a href="index.html" class="brand-blue">ApexxSphere</a> is a full-service advertising and marketing agency built for one purpose: moving your inventory and scaling your brand. We don't handle simple brand awareness; we design precision-engineered, full-funnel ad campaigns and high-performing multi-channel promotions that turn cold traffic into active customers. From targeted PPC and elite SEO to dominant product placements, we build the visibility your brand needs to capture the market.</p>
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+              <a href="services.html" class="rounded-2xl bg-gradient-to-r from-indigo-500 to-cyan-500 px-6 py-4 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 transition hover:scale-[1.02]">Explore Services</a>
+              <a href="contact.html" class="rounded-2xl border border-white/15 bg-white/5 px-6 py-4 text-sm font-semibold text-white transition hover:bg-white/10">Book a Consultation</a>
+            </div>
+          </div>
+
+          <div class="relative">
+            <div class="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-indigo-500/20 via-cyan-400/10 to-transparent blur-2xl"></div>
+            <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900/70 p-6 shadow-2xl">
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                  <div class="text-sm text-slate-400">Strategy</div>
+                  <div class="mt-2 text-2xl font-bold text-white">Multi-channel</div>
+                  <div class="mt-2 text-sm leading-6 text-slate-300">Campaign systems built for visibility, conversions, and measurable growth.</div>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5">
+                  <div class="text-sm text-slate-400">Audience</div>
+                  <div class="mt-2 text-2xl font-bold text-white">High intent</div>
+                  <div class="mt-2 text-sm leading-6 text-slate-300">Targeted publishing that reaches the right people at the right moment.</div>
+                </div>
+                <div class="rounded-2xl border border-white/10 bg-white/5 p-5 sm:col-span-2">
+                  <div class="text-sm text-slate-400">Performance</div>
+                  <div class="mt-2 text-2xl font-bold text-white">Revenue-focused</div>
+                  <div class="mt-2 text-sm leading-6 text-slate-300">Every initiative is designed to support sales outcomes and brand authority.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12">
+        <h2 class="text-2xl font-bold text-white sm:text-3xl">Client Testimonials</h2>
+        <div class="mt-6 grid gap-6 lg:grid-cols-3">
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl transition hover:-translate-y-1 hover:bg-white/8">
+            <p class="text-slate-200 leading-8">"<a href="index.html" class="brand-blue">ApexxSphere</a> completely transformed our digital strategy. Our multi-channel campaign traffic tripled within the first 30 days."</p>
+            <div class="mt-5 text-sm font-semibold text-cyan-200">Sarah L., E-commerce Founder</div>
+          </article>
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl transition hover:-translate-y-1 hover:bg-white/8">
+            <p class="text-slate-200 leading-8">"The media network integration they leverage gave our product launch immediate visibility that standard ad agencies simply couldn't replicate."</p>
+            <div class="mt-5 text-sm font-semibold text-cyan-200">David O., Tech Startup Executive</div>
+          </article>
+          <article class="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl transition hover:-translate-y-1 hover:bg-white/8">
+            <p class="text-slate-200 leading-8">"Data-driven, highly professional, and completely result-oriented."</p>
+            <div class="mt-5 text-sm font-semibold text-cyan-200">Elena M., Marketing Director</div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-slate-950/70">
+    <div class="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-3 lg:px-8">
+      <div>
+        <div class="text-xl font-extrabold text-white"><a href="index.html" class="brand-blue">ApexxSphere</a></div>
+        <p class="mt-4 max-w-md leading-7 text-slate-300">A premium digital marketing and media platform built to elevate visibility, drive engagement, and convert attention into measurable growth.</p>
+      </div>
+      <div>
+        <div class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Connect with Us</div>
+        <div class="mt-4 flex flex-col gap-3 text-slate-200">
+          <a class="transition hover:text-cyan-300" href="https://www.pinterest.com/apexxsphere0" target="_blank" rel="noreferrer">Pinterest</a>
+          <a class="transition hover:text-cyan-300" href="https://flipboard.com/@apexxsphere/" target="_blank" rel="noreferrer">Flipboard</a>
+          <a class="transition hover:text-cyan-300" href="https://threads.com/@apexxsphere/" target="_blank" rel="noreferrer">Threads</a>
+        </div>
+      </div>
+      <div>
+        <div class="text-sm font-semibold uppercase tracking-[0.24em] text-slate-400">Contact</div>
+        <a href="mailto:apexxsphere@gmail.com" class="mt-4 block text-slate-200 hover:text-cyan-300">apexxsphere@gmail.com</a>
+        <p class="mt-4 text-sm leading-7 text-slate-400">© 2026 <a href="index.html" class="brand-blue">ApexxSphere</a>. All rights reserved. A Division of the Apexasphere Media Group.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  </script>
+</body>
+</html>
